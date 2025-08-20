@@ -1,0 +1,3 @@
+tool: GCC
+fileName: bms-education.map
+elfName: bms-education.elf

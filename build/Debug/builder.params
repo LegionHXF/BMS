@@ -1,0 +1,84 @@
+{
+    "name": "bms-education",
+    "target": "Debug",
+    "toolchain": "GCC",
+    "toolchainLocation": "C:\\Users\\Administrator\\.eide\\tools\\gcc_arm",
+    "toolchainCfgFile": "c:\\Users\\Administrator\\.vscode\\extensions\\cl.eide-3.23.14\\res\\data\\models/arm.gcc.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 8,
+    "rootDir": "f:\\朱有鹏嵌入式\\朱有鹏嵌入式\\BMS电池管理系统原理与实战  项目资料\\3.1.BMS电池管理系统原理与实战\\3.1.BMS项目资料\\5.项目源码\\5.项目源码\\Rtthread\\bms-education-master-20250225\\bms-education",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "incDirs": [],
+    "libDirs": [],
+    "defines": [],
+    "sourceList": [],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 5,
+        "beforeBuildTasks": [],
+        "afterBuildTasks": [],
+        "global": {
+            "$float-abi-type": "softfp",
+            "output-debug-info": "enable",
+            "misc-control": "--specs=nosys.specs --specs=nano.specs",
+            "toolPrefix": "arm-none-eabi-",
+            "microcontroller-cpu": "cortex-m3",
+            "microcontroller-fpu": "cortex-m3",
+            "microcontroller-float": "cortex-m3",
+            "$arch-extensions": "",
+            "$clang-arch-extensions": "",
+            "$armlink-arch-extensions": ""
+        },
+        "c/cpp-compiler": {
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "optimization": "level-debug",
+            "warnings": "all-warnings",
+            "one-elf-section-per-function": true,
+            "one-elf-section-per-data": true,
+            "C_FLAGS": "",
+            "CXX_FLAGS": ""
+        },
+        "asm-compiler": {
+            "ASM_FLAGS": ""
+        },
+        "linker": {
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "LD_FLAGS": "",
+            "LIB_FLAGS": "-lm",
+            "$toolName": "gcc",
+            "link-scatter": [
+                "\"f:/朱有鹏嵌入式/朱有鹏嵌入式/BMS电池管理系统原理与实战  项目资料/3.1.BMS电池管理系统原理与实战/3.1.BMS项目资料/5.项目源码/5.项目源码/Rtthread/bms-education-master-20250225/bms-education/<YOUR_LINKER_SCRIPT>.lds\""
+            ]
+        }
+    },
+    "env": {
+        "workspaceFolder": "f:\\朱有鹏嵌入式\\朱有鹏嵌入式\\BMS电池管理系统原理与实战  项目资料\\3.1.BMS电池管理系统原理与实战\\3.1.BMS项目资料\\5.项目源码\\5.项目源码\\Rtthread\\bms-education-master-20250225\\bms-education",
+        "workspaceFolderBasename": "bms-education",
+        "OutDir": "f:\\朱有鹏嵌入式\\朱有鹏嵌入式\\BMS电池管理系统原理与实战  项目资料\\3.1.BMS电池管理系统原理与实战\\3.1.BMS项目资料\\5.项目源码\\5.项目源码\\Rtthread\\bms-education-master-20250225\\bms-education\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "bms-education",
+        "ConfigName": "Debug",
+        "ProjectRoot": "f:\\朱有鹏嵌入式\\朱有鹏嵌入式\\BMS电池管理系统原理与实战  项目资料\\3.1.BMS电池管理系统原理与实战\\3.1.BMS项目资料\\5.项目源码\\5.项目源码\\Rtthread\\bms-education-master-20250225\\bms-education",
+        "ExecutableName": "f:\\朱有鹏嵌入式\\朱有鹏嵌入式\\BMS电池管理系统原理与实战  项目资料\\3.1.BMS电池管理系统原理与实战\\3.1.BMS项目资料\\5.项目源码\\5.项目源码\\Rtthread\\bms-education-master-20250225\\bms-education\\build\\Debug\\bms-education",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\Administrator\\.vscode\\extensions\\cl.eide-3.23.14\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\Administrator\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\Administrator\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "C:\\Users\\Administrator\\.eide\\tools\\gcc_arm"
+    },
+    "sysPaths": []
+}
